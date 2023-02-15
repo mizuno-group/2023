@@ -2,8 +2,8 @@
 This repository contains works by Mizuno group in 2023.  
 
 # Content
-- StereoisomerismMisunderstanding  
-    - *Difficulty in learning stereoisomerism for Transformer fed with SMILES*  
+- ChiralityMisunderstanding  
+    - *Difficulty in learning chirality for Transformer fed with SMILES*  
 
 # Member
 - [Katsuhisa Morita](https://github.com/KatsuhisaMorita)  
