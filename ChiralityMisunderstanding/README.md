@@ -1,4 +1,4 @@
-# Investigation of chemical structure recognition by encoder-decoder models in learning progress
+# Difficulty in learning chirality for Transformer fed with SMILES
 
 ***
 
@@ -9,6 +9,6 @@
 
 ## Identifier
 - preprint  
-	- arXiv:2210.16307   
+	- Not yet   
 - publication  
 	- Not yet  
