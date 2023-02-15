@@ -10,7 +10,7 @@ This repository contains works by Mizuno group in 2023.
 - [Shumpei Nemoto](https://github.com/Nemoto-S)  
 - [Iori Azuma](https://github.com/groovy-phazuma)  
 - Takumi Iwasaka  
-- Yasuhiro Yoshikai(https://github.com/yyoshikai)  
+- [Yasuhiro Yoshikai](https://github.com/yyoshikai)  
 - [Tadahaya Mizuno*](https://github.com/tadahayamiz)  
     - correspondence  
 
