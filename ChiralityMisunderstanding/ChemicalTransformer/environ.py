@@ -1,5 +1,0 @@
-CT_DIR = "/home/docker/data/miz2022y/ChemicalTransformer"
-TOOLS_DIR ="/home/docker/data/miz2022y/tools"
-RESULT_DIR = "/home/docker/data/miz2022y/NMT_Transformer/zinc/training_results"
-DEFAULT_BUCKET_PATH = "/home/docker/data/miz2022y/NMT_Transformer/zinc/220815_buckets"
-DEFAULT_TOKENIZER_PATH = "/home/docker/data/miz2022y/NMT_Transformer/zinc/220829_tokenizer"
