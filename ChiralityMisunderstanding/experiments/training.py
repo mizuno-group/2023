@@ -12,7 +12,7 @@ from tqdm import tqdm
 from sklearn.metrics import roc_auc_score, cohen_kappa_score
 
 RESULT_DIR = os.environ["RESULT_DIR"] if "RESULT_DIR" in os.environ \
-    else os.path.pardir(__file__) # ?
+    else os.path.join(os.path.pardir(__file__), "training_results")
 
 from src.models.model_whole import prepare_model, add_model_args
 from src.models.components import NoamOpt, LabelSmoothing, FFGenerator, \

@@ -191,10 +191,12 @@ class Buckets:
         answer.dataset_masks = np.load(dirname+"/dataset_masks.npy", allow_pickle=True)
         answer.shuffle_epoch = params["shuffle_epoch"]
         return answer
-
-def MakeBuckets(bucketing_datas, sub_bucketing_datas, datas, min_len, max_len,
-    min_bucket_step, pad_token, sub_pad_tokens, seed=0, min_n_token=1,
-    residue='include'):
+        
+def MakeBuckets(bucketing_datas, pad_token,
+    sub_bucketing_datas=[], sub_pad_tokens=[],
+    datas=[], min_len=0, max_len=np.inf,
+    min_bucket_step=1, min_n_token=1,
+    residue='include', seed=0):
     """
     Parameters
     ----------
@@ -230,6 +232,9 @@ def MakeBuckets(bucketing_datas, sub_bucketing_datas, datas, min_len, max_len,
 
     len_data = np.array([[len(data) for data in feature] for feature in bucketing_datas], dtype=np.int32)
     max_len_data = np.max(len_data, axis=0)
+    min_len = int(max(min_len, np.min(max_len_data)))
+    max_len = int(min(max_len, np.max(max_len_data)))
+
     len_index = [
         np.where(max_len_data == l)[0] for l in range(max_len+1)]
     len_index_len = [len(len_ind) for len_ind in len_index]
