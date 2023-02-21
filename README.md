@@ -4,6 +4,8 @@ This repository contains works by Mizuno group in 2023.
 # Content
 - ChiralityMisunderstanding  
     - *Difficulty in learning chirality for Transformer fed with SMILES*  
+- RatDeconvolution
+    - *Rat transcriptome deconvolution for investigating immune response*
 
 # Member
 - [Katsuhisa Morita](https://github.com/KatsuhisaMorita)  
