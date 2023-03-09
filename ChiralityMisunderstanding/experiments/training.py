@@ -10,9 +10,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 from tqdm import tqdm
 from sklearn.metrics import roc_auc_score, cohen_kappa_score
-
-RESULT_DIR = os.environ["RESULT_DIR"] if "RESULT_DIR" in os.environ \
-    else os.path.join(os.path.pardir(__file__), "training_results")
+PROJECT_DIR = os.environ["PROJECT_DIR"] if "PROJECT_DIR" in os.environ \
+    else ".."
+RESULT_DIR = os.path.join(PROJECT_DIR, "training_results")
+sys.path += [PROJECT_DIR]
 
 from src.models.model_whole import prepare_model, add_model_args
 from src.models.components import NoamOpt, LabelSmoothing, FFGenerator, \
@@ -126,9 +127,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--studyname", default="default_study")
     parser.add_argument("--pretrained_model_file")
-    parser.add_argument("--tokenizer_file", default='normal_tokenizer.pkl')
-    parser.add_argument("--train_file", nargs='+', default=["normal/train.pkl"])
-    parser.add_argument("--val_file", nargs='*', default=['normal/val.pkl'])
+    parser.add_argument("--tokenizer_file", default='../preprocess/result/tokenizer.pkl')
+    parser.add_argument("--train_file", nargs='+', default=["../preprocess/result/train"])
+    parser.add_argument("--val_file", nargs='*', default=["../preprocess/result/val"])
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--deterministic", type=bool, default=True)
     add_model_args(parser)
@@ -148,7 +149,7 @@ def main():
     parser.add_argument("--keepseed", action="store_true")
     parser.add_argument("--saveallopt", action="store_true")
     parser.add_argument("--optstep", type=int, default=2)
-    parser.add_argument("--duplicate", default='numbering')
+    parser.add_argument("--duplicate", default='ask')
     
     parser.add_argument("--aux", action="store_true")
     parser.add_argument("--aux_train_file")

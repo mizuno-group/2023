@@ -248,7 +248,10 @@ def MakeBuckets(bucketing_datas, pad_token,
     if residue == 'new':
         bucket_ends.append(max_len)
     elif residue == 'include':
-        bucket_ends[-1] = max_len
+        if len(bucket_ends) == 0:
+            bucket_ends = [max_len]
+        else:
+            bucket_ends[-1] = max_len
     
     buckets = []
     bucket_start = min_len
