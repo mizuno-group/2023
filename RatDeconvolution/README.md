@@ -3,7 +3,7 @@
 ***
 
 ## contents
-- Sample code of deconvolution  
+- Analysis code of deconvolution  
 - Ready to use data
 
 ## Identifier
