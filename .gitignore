@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# csv/gaf/owl result files
+*.csv
+*.gaf
+*.owl
+*.pickle
+result/*
