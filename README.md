@@ -5,7 +5,7 @@ This repository summarizes the works by Mizuno Group in 2023.
 - [ChiralityMisunderstanding](https://github.com/mizuno-group/ChiralityMisunderstanding)  
     - *Difficulty in learning chirality for Transformer fed with SMILES*  
 - [RatDeconvolution](https://github.com/mizuno-group/RatDeconvolution)  
-    - *Rat transcriptome deconvolution for investigating immune response*  
+    - *Establishment of Rat Deconvolution as Knowledge Miner for Immune Cell Trafficking from Toxicogenomics Database*  
 - [LiverDeconv](https://github.com/mizuno-group/LiverDeconv)  
     - *Investigation of the usefulness of liver-specific deconvolution method toward legacy data utilization*  
 
