@@ -2,12 +2,8 @@
 This repository summarizes the works by Mizuno Group in 2023.  
 
 ## Content
-- [ChiralityMisunderstanding](https://github.com/mizuno-group/ChiralityMisunderstanding)  
-    - *Difficulty in learning chirality for Transformer fed with SMILES*  
 - [RatDeconvolution](https://github.com/mizuno-group/RatDeconvolution)  
     - *Establishment of Rat Deconvolution as Knowledge Miner for Immune Cell Trafficking from Toxicogenomics Database*  
-- [LiverDeconv](https://github.com/mizuno-group/LiverDeconv)  
-    - *Investigation of the usefulness of liver-specific deconvolution method toward legacy data utilization*  
 - [ToxRepresentationCNN](https://github.com/mizuno-group/ToxRepresentationCNN)  
     - *Investigation of CNN-based feature extraction of toxicopathological images for understanding compound effects in vivo*  
 
@@ -17,6 +13,7 @@ This repository summarizes the works by Mizuno Group in 2023.
 - [Iori Azuma](https://github.com/groovy-phazuma)  
 - [Takumi Iwasaka](https://github.com/T-IWASAKA)  
 - [Yasuhiro Yoshikai](https://github.com/yyoshikai)  
+- [Tomoka Nakagawa](https://github.com/TomokaNAKAGAWA)  
 - [Yohei Ohto](https://github.com/YoheiOhto)  
 - [Yosuke Kikuchi](https://github.com/KikuchiY16)  
 - [Tadahaya Mizuno*](https://github.com/tadahayamiz)  
