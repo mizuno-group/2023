@@ -1,11 +1,13 @@
-# Our Works in 2023
-This repository summarizes the works by Mizuno Group in 2023.  
+# Research Overview 2023
+This repository provides an overview of the Mizuno Group’s research activities in 2023.  
 
 ## Content
 - [RatDeconvolution](https://github.com/mizuno-group/RatDeconvolution)  
     - *Establishment of Rat Deconvolution as Knowledge Miner for Immune Cell Trafficking from Toxicogenomics Database*  
+    - Morita K. Toxicol Sci. 2023.  
 - [ToxRepresentationCNN](https://github.com/mizuno-group/ToxRepresentationCNN)  
     - *Investigation of CNN-based feature extraction of toxicopathological images for understanding compound effects in vivo*  
+    - Maedera S. Comput Biol Med. 2024  
 
 ## Member
 - [Katsuhisa Morita](https://github.com/KatsuhisaMorita)  
